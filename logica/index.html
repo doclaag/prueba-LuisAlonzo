@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <!-- Estilos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">Calculadora</h1>
+        <div class="mb-3">
+            <input type="text" class="form-control" id="expression" placeholder="Ingrese una expresión">
+        </div>
+        <button class="btn btn-primary mb-3" onclick="calculateExpression()">Calcular</button>
+        <button class="btn btn-primary mb-3" onclick="calculateSquareRoot()">Raíz cuadrada</button>
+        <button class="btn btn-danger mb-3" onclick="clearInput()">CE</button>
+        <p id="result" style="visibility: hidden;"></p>
+    </div>
+
+    <!-- Scripts de Bootstrap y código personalizado -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
